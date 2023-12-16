@@ -213,3 +213,23 @@ a {
     text-align: center;
     margin-top: 100px;
 }
+/* 1024, 900, 768, 600, 450 responsive website */
+@media only screen and (max-width : 1024px){
+    .wrapper {
+        width : 70%;
+    }
+    nav > .wrapper {
+        display: flex;
+        align-items: center;
+    }
+    #about > .wrapper > div {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .menu > ul {
+        justify-content: space-evenly;
+        font-size: 0.5rem;
+    }
+}
