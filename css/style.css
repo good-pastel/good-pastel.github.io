@@ -22,7 +22,7 @@ html, body {
     width: 45px;
 }
 nav {
-    background-color: #ad6f68;
+    background-color: #9aa7b3;
     color: #fff;
     position: sticky;
     top: 0;
@@ -90,7 +90,7 @@ header{
 }
 .header-jumbotron > h5 > a {
     text-decoration: none;
-    color: #ad6f68;
+    color: #9aa7b3;
 }
 .header-jumbotron > h5 > a:hover {
     color: #5e5e5e;
@@ -109,7 +109,7 @@ a {
     color: #fff;
 }
 .button {
-    background-color:#ad6f68 ;
+    background-color:#9aa7b3 ;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     font-family: 'Asap', sans-serif;
@@ -121,7 +121,7 @@ a {
 }
 /* Portfolio */
 #portfolio {
-    background-color: #ad6f68;
+    background-color: #9aa7b3;
     color: #fff;
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -168,7 +168,7 @@ a {
 }
 /* About Me */
 #about {
-    background-color: #ad6f68;
+    background-color: #9aa7b3;
     color: #fff;
     font-family: 'Montserrat Alternates', sans-serif;
     margin:100px;
@@ -207,10 +207,10 @@ a {
     justify-content: space-between;
 }
 .desc > .social > a {
-    color: #ad6f68;
+    color: #9aa7b3;
 }
 .copy > h5 {
-    color: #ad6f68;
+    color: #9aa7b3;
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
     margin-top: 50px;
@@ -238,7 +238,7 @@ a {
         width: 45px;
     }
     nav {
-        background-color: #ad6f68;
+        background-color: #9aa7b3;
         color: #fff;
         position: sticky;
         top: 0;
@@ -314,7 +314,7 @@ a {
     }
     /* about me */
     #about {
-        background-color: #ad6f68;
+        background-color: #9aa7b3;
         color: #fff;
         font-family: 'Montserrat Alternates', sans-serif;
         margin: 10px 0px 10px 0px;        
@@ -352,10 +352,10 @@ a {
         justify-content: space-between;
     }
     .desc > .social > a {
-        color: #ad6f68;
+        color: #9aa7b3;
     }
     .copy > h5 {
-        color: #ad6f68;
+        color: #9aa7b3;
         font-family: 'Montserrat Alternates', sans-serif;
         text-align: center;
     }  
