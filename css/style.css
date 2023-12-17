@@ -22,7 +22,7 @@ html, body {
     width: 45px;
 }
 nav {
-    background-color: #dcaaa3;
+    background-color: #ad6f68;
     color: #fff;
     position: sticky;
     top: 0;
@@ -57,7 +57,7 @@ header{
     background-repeat:no-repeat;
     position: relative;
     font-family: 'Montserrat Alternates', sans-serif;
-    margin-bottom: 50px;  
+    margin-bottom: 20px;  
 }
 .header-opacity {
     background-color: #fff;
@@ -82,15 +82,15 @@ header{
 }
 .header-jumbotron > h4 {
     color: #FFF;
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 20px;
     padding: 0px;
     letter-spacing: 5px;
-    text-shadow: 0 0 10px #dd9c93;
+    text-shadow: 0 0 10px #1a1919;
 }
 .header-jumbotron > h5 > a {
     text-decoration: none;
-    color: #dcaaa3;
+    color: #ad6f68;
 }
 .header-jumbotron > h5 > a:hover {
     color: #5e5e5e;
@@ -109,11 +109,11 @@ a {
     color: #fff;
 }
 .button {
-    background-color:#dcaaa3 ;
+    background-color:#ad6f68 ;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     font-family: 'Asap', sans-serif;
-    margin: 20px;
+    margin: 10px;
 }
 .button-xl {
     font-size: 1.2rem;
@@ -121,7 +121,7 @@ a {
 }
 /* Portfolio */
 #portfolio {
-    background-color: #dcaaa3;
+    background-color: #ad6f68;
     color: #fff;
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -130,14 +130,14 @@ a {
     font-size: 2.8rem;
     margin: 0px;
     padding: 0px;
-    margin-top: 100px;
-    
+    margin-top: 100px;    
 }
 #portfolio > .wrapper > h5 {
     text-align: center;
     font-size: 0.8rem;
     margin: 0px;
     padding: 5px;
+    margin-bottom: 50px;
 }
 #portfolio > .wrapper > h4 > span {
     color: #fddad5;
@@ -148,11 +148,13 @@ a {
     margin-top: 0px;
     padding: 0px;
     line-height: 25px;
+    
     }
 .grid {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 50px;
+    grid-template-columns: 45% 45%;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
 .grid > .item {
     border: 1px solid #fff;
@@ -166,7 +168,7 @@ a {
 }
 /* About Me */
 #about {
-    background-color: #dcaaa3;
+    background-color: #ad6f68;
     color: #fff;
     font-family: 'Montserrat Alternates', sans-serif;
     margin:100px;
@@ -205,27 +207,27 @@ a {
     justify-content: space-between;
 }
 .desc > .social > a {
-    color: #dcaaa3;
+    color: #ad6f68;
 }
 .copy > h5 {
-    color: #dcaaa3;
+    color: #ad6f68;
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 /* 1024, 900, 768, 600, 450 responsive website */
 @media only screen and (max-width : 1024px){
     html, body {
         margin: 0px;
         padding: 0px;
-        font-size: 12px;
+        font-size: 14px;
         font-family: 'Asap', sans-serif;
     }
     /* menu */
     .wrapper {
-        max-width: 70%;
+        width: 100%;
         margin: auto;
-        padding: 10px 0px 10px 0px;
+        padding: 5px 0px 5px 0px;
 
     }
     .logo{
@@ -236,7 +238,7 @@ a {
         width: 45px;
     }
     nav {
-        background-color: #dcaaa3;
+        background-color: #ad6f68;
         color: #fff;
         position: sticky;
         top: 0;
@@ -244,12 +246,12 @@ a {
     }
     nav > .wrapper {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         font-size: 1rem;
         align-items: center;
     }
     .menu {
-        width: 80%;
+        width: 85%;
     }
     .menu > ul {
         display: flex;
@@ -263,98 +265,37 @@ a {
         color: #fff;
     }
     /* header */
-    header{
-        background: url("/img/background.jpg");
+    header {
+        margin: 10px 0px 10px 0px;
         height: 100vh;
-        background-position: center center;
-        background-size: cover;
-        background-repeat:no-repeat;
-        position: relative;
-        font-family: 'Montserrat Alternates', sans-serif;
-        margin-bottom: 50px;  
-    }
-    .header-opacity {
-        background-color: #fff;
-        width: 100%;
-        height: 100%;
-        opacity: 0.7;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    .header-jumbotron {
-        position: absolute;
-        top :0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
     }
     .header-jumbotron > h4 {
-        color: #FFF;
-        font-size: 3rem;
-        margin: 20px;
-        padding: 0px;
-        letter-spacing: 5px;
-        text-shadow: 0 0 10px #dd9c93;
-    }
-    .header-jumbotron > h5 > a {
-        text-decoration: none;
-        color: #dcaaa3;
-    }
-    .header-jumbotron > h5 > a:hover {
-        color: #5e5e5e;
+        margin: 10px 0px 10px 0px;
     }
     .header-jumbotron > h5 {
-        color: #5e5e5e;
-        width: 50%;
-        text-align: justify;
-        padding: 5px;
-        font-size: 0.8rem;
-        line-height: 1.7rem;
+        width: 80%;
+
     }
-    a {
-        text-decoration: none;
-        text-shadow: none;
-        color: #fff;
-    }
-    .button {
-        background-color:#dcaaa3 ;
-        padding: 5px 10px 5px 10px;
-        border-radius: 5px;
-        font-family: 'Asap', sans-serif;
-        margin: 20px;
-    }
-    .button-xl {
-        font-size: 1.2rem;
-        padding: 10px;
-    }
-    /* Portfolio */
-    #portfolio {
-        background-color: #dcaaa3;
-        color: #fff;
-        font-family: 'Montserrat Alternates', sans-serif;        
-    }
+    /* portfolio */
+    
     #portfolio > .wrapper > h4 {
-        text-align: center;
-        font-size: 2.8rem;
-        margin: auto;
-        padding: auto;
-        margin-top: 100px;        
+        margin-top: 10px;
     }
-    #portfolio > .wrapper > h5 {
-        text-align: center;
-        font-size: 0.8rem;
-        margin: auto;
+    .grid {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-gap: 20px;
+        justify-content: space-evenly;
+    }
+    .grid > .item {
+        border: 1px solid #fff;
+        background-color: #fffbf6;
+        border-radius: 5px;
         padding: 5px;
-        margin-bottom: 30px;
     }
-    #portfolio > .wrapper > h4 > span {
-        color: #fddad5;
+    .grid > .item > img {
+        width: 100%;
+        border: 1px solid #5e5e5e;
     }
     #portfolio > .wrapper > p {
         font-size: 0.8rem;
@@ -362,35 +303,26 @@ a {
         margin-top: 0px;
         padding: 0px;
         line-height: 15px;
-        margin-bottom: 50px;
-        }
-    .grid {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-gap: 50px;
-        margin-bottom: 200px;
+        margin-bottom: 30px;
     }
-    .grid > .item {
-        border: 1px solid #fff;
-        background-color: #fffbf6;
-        border-radius: 5px;
-        padding: 10px;
+        #portfolio > .wrapper > h5 {
+            text-align: center;
+            font-size: 0.8rem;
+            margin: auto;
+            padding: 5px;
+            margin-bottom: 30px;
     }
-    .grid > .item > img {
-        width: 100%;
-        border: 1px solid #5e5e5e;
-    }
-    /* About Me */
+    /* about me */
     #about {
-        background-color: #dcaaa3;
+        background-color: #ad6f68;
         color: #fff;
         font-family: 'Montserrat Alternates', sans-serif;
-        margin: 0px;        
+        margin: 10px 0px 10px 0px;        
     }
     #about > .wrapper > h4 {
         text-align: center;
-        font-size: 2.8rem;
-        margin: 0px;
+        font-size: 2rem;
+        margin: 10px;
         padding: 0px;      
     }
     #about > .wrapper > div {
@@ -420,11 +352,11 @@ a {
         justify-content: space-between;
     }
     .desc > .social > a {
-        color: #dcaaa3;
+        color: #ad6f68;
     }
     .copy > h5 {
-        color: #dcaaa3;
+        color: #ad6f68;
         font-family: 'Montserrat Alternates', sans-serif;
         text-align: center;
-    }
+    }  
 }
