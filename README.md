@@ -1,9 +1,5 @@
 # good-pastel.github.io
 
-
-All codes saved on my other repo:
-https://github.com/good-pastel/learning-goodpastel
-
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
