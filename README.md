@@ -11,7 +11,7 @@
   <h3 align="center">Welcome to Good Pastel</h3>
 
   <p align="center">
-   I'm a beginner to learning about website coding.
+   I'm a beginner who learn about website coding.
     <br />
     <a href="https://github.com/good-pastel?tab=repositories"><strong>Explore the other Repo»</strong></a>
   </p>
