@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 html, body {
     margin: 0px;
     padding: 0px;
     font-size: 16px;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 /* menu */
 .wrapper {
@@ -22,7 +24,7 @@ html, body {
     width: 45px;
 }
 nav {
-    background-color: #9aa7b3;
+    background-color: #B49283;
     color: #fff;
     position: sticky;
     top: 0;
@@ -56,7 +58,7 @@ header{
     background-size: cover;
     background-repeat:no-repeat;
     position: relative;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin-bottom: 20px;  
 }
 .header-opacity {
@@ -90,7 +92,7 @@ header{
 }
 .header-jumbotron > h5 > a {
     text-decoration: none;
-    color: #9aa7b3;
+    color: #B49283;
 }
 .header-jumbotron > h5 > a:hover {
     color: #5e5e5e;
@@ -109,10 +111,10 @@ a {
     color: #fff;
 }
 .button {
-    background-color:#9aa7b3 ;
+    background-color:#B49283 ;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 10px;
 }
 .button-xl {
@@ -121,9 +123,9 @@ a {
 }
 /* Portfolio */
 #portfolio {
-    background-color: #9aa7b3;
+    background-color: #B49283;
     color: #fff;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 #portfolio > .wrapper > h4 {
     text-align: center;
@@ -168,9 +170,9 @@ a {
 }
 /* About Me */
 #about {
-    background-color: #9aa7b3;
+    background-color: #B49283;
     color: #fff;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin:100px;
 }
 #about > .wrapper > h4 {
@@ -207,11 +209,11 @@ a {
     justify-content: space-between;
 }
 .desc > .social > a {
-    color: #9aa7b3;
+    color: #B49283;
 }
 .copy > h5 {
-    color: #9aa7b3;
-    font-family: 'Montserrat Alternates', sans-serif;
+    color: #B49283;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin-top: 50px;
 }
@@ -238,7 +240,7 @@ a {
         width: 45px;
     }
     nav {
-        background-color: #9aa7b3;
+        background-color: #B49283;
         color: #fff;
         position: sticky;
         top: 0;
@@ -314,9 +316,9 @@ a {
     }
     /* about me */
     #about {
-        background-color: #9aa7b3;
+        background-color: #B49283;
         color: #fff;
-        font-family: 'Montserrat Alternates', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         margin: 10px 0px 10px 0px;        
     }
     #about > .wrapper > h4 {
@@ -352,11 +354,11 @@ a {
         justify-content: space-between;
     }
     .desc > .social > a {
-        color: #9aa7b3;
+        color: #B49283;
     }
     .copy > h5 {
-        color: #9aa7b3;
-        font-family: 'Montserrat Alternates', sans-serif;
+        color: #B49283;
+        font-family: 'Ubuntu', sans-serif;
         text-align: center;
     }  
 }
