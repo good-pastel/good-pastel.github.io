@@ -1,11 +1,5 @@
 # good-pastel.github.io
 
-
-This is a sample. A simple website using only HTML, CSS and javascript command on the admin page. For the full display to improve performance, i modify it with PHP and connect to mysql database. I use bootstrap, font awesome and summernote for styling. Here is the result :  https://learningat.great-site.net/
-
-All codes saved on my other repo:
-https://github.com/good-pastel/learning-goodpastel
-
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
@@ -17,7 +11,7 @@ https://github.com/good-pastel/learning-goodpastel
   <h3 align="center">Welcome to Good Pastel</h3>
 
   <p align="center">
-   I'm a beginner to learning about website coding.
+   I'm a beginner who learn about website coding.
     <br />
     <a href="https://github.com/good-pastel?tab=repositories"><strong>Explore the other Repo»</strong></a>
   </p>
