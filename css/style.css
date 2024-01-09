@@ -277,7 +277,7 @@ a {
     align-items: center;
 }
 .logo > img{
-    width: 30px;
+    width: 100%;
     border-radius: 50%;
 }
 nav {
@@ -288,12 +288,13 @@ nav {
     z-index: 100;
     opacity: 0.9;
 }
-nav > .wrapper {
-    display: flex;
-    align-items: center;
-}
 .menu {
     width: 100%;
+}
+}
+.menu >ul {
+    display: inline;
+    text-align: right;
 }
 /* Portfolio */
 #portfolio {
@@ -338,5 +339,4 @@ nav > .wrapper {
 .navigation a {
     height: 10px;
     width: 10px;
-}
 }
