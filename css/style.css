@@ -265,7 +265,7 @@ a {
     font-size: 12px;
     font-family: 'Calibri';
     font-weight: 800;
-}
+
 /* menu */
 .wrapper {
     width: 70%;
@@ -340,3 +340,4 @@ nav {
     height: 10px;
     width: 10px;
 }
+    }
