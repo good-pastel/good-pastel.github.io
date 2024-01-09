@@ -160,19 +160,15 @@ a {
     font-size: 0.8rem;
     text-align: justify;
     align-items: center;
-    padding: 0px;
-    
-    
+    padding: 0px;    
 }
 .images {
     display: flex;
     width: 100%;
     transition: 2s;
-    
 }
 .images > img {
     width:100%;
-    
 }
 .wrapper2 {
     width: 800px;
@@ -341,6 +337,5 @@ nav {
 }
 .desc > .social {
     display: inline;
-}
 }
 }
