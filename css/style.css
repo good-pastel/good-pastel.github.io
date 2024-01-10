@@ -338,4 +338,10 @@ nav {
 .desc > .social {
     display: inline;
 }
+.foto {
+    width: 50%;
+}
+.desc {
+    width: 50%;
+}       
 }
