@@ -11,8 +11,7 @@
   <h3 align="center">Welcome to Good Pastel</h3>
 
   <p align="center">
-   I'm a beginner who learn about website coding.
-    <br />
+   Colors fade, but pastels hold their magic forever. Let the pastels be a reflection of the beauty within your soul.<br />
     <a href="https://github.com/good-pastel?tab=repositories"><strong>Explore the other Repo»</strong></a>
   </p>
 </div>
