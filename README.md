@@ -25,7 +25,7 @@
 
 This is my personal portfolio.
 
-## Language
+## Languages
 
 <img src="https://i.ibb.co/ZWby3XF/Screenshot-2024-01-15-102600.png">
 <br>
