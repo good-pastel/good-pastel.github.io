@@ -295,6 +295,15 @@ a {
       display: inline;
       text-align: right;
     }
+    .menu > ul > li {
+      margin: 5px;
+      padding: 2px;
+      border: #afafaf 1px solid;
+      text-align: center;
+    }
+    .menu > ul > li:hover {
+      background-color: #fc7c7c;
+    }
     /* Portfolio */
     #portfolio {
       background-color: #b49283;
