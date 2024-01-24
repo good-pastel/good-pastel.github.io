@@ -33,7 +33,6 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
-  opacity: 0.9;
 }
 nav > .wrapper {
   display: flex;
@@ -170,6 +169,7 @@ a {
 }
 .images > img {
   width: 100%;
+  border-radius: 15px;
 }
 .wrapper2 {
   width: 800px;
@@ -200,7 +200,7 @@ a {
 }
 .navigation {
   text-align: center;
-  margin-top: -50px;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
 /* About Me */
@@ -341,11 +341,14 @@ a {
       line-height: 25px;
     }
     .wrapper2 {
-      width: 70%;
+      width: 100%;
+    }
+    .navigation {
+      margin-top: -50px;
     }
     .navigation a {
-      height: 10px;
-      width: 10px;
+      height: 20px;
+      width: 20px;
     }
     .desc > .social {
       display: inline;
