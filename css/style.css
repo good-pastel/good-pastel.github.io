@@ -359,5 +359,8 @@ a {
     .desc {
       width: 100%;
     }
+    #about > .wrapper > div {
+      width: 100%;
+    }
   }
 }
