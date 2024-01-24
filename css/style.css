@@ -94,25 +94,6 @@ header {
   letter-spacing: 5px;
   text-shadow: 0 0 40px #fc7c7c;
 }
-.title {
-  position: relative;
-}
-.title::before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.title::before {
-  animation: judul 5s ease forwards;
-}
-@keyframes judul {
-  to {
-    left: 100%;
-  }
-}
 .header-jumbotron > h5 > a {
   text-decoration: none;
   color: #fc7c7c;
@@ -305,7 +286,9 @@ a {
       opacity: 0.9;
     }
     .menu {
-      width: 100%;
+      display: flex;
+      align-items: center;
+      width: 10%;
     }
 
     .menu > ul {
