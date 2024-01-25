@@ -273,7 +273,7 @@ a {
     nav > .wrapper {
       display: flex;
       justify-content: space-evenly;
-      font-size: 1.2rem;
+      font-size: 0.8rem;
       align-items: center;
     }
     nav {
@@ -299,6 +299,7 @@ a {
     }
     .menu > ul > li {
       height: 100%;
+      margin : 5px;
       border: #afafaf 1px solid;
       border-radius: 5px;
       text-align: center;
