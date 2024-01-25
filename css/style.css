@@ -300,6 +300,7 @@ a {
     .menu > ul > li {
       height: 100%;
       margin : 5px;
+      font-size : 0.8rem;
       border: #afafaf 1px solid;
       border-radius: 5px;
       text-align: center;
