@@ -298,11 +298,7 @@ a {
       justify-content: space-between;
     }
     .menu > ul > li {
-      height: 100%;
-      margin : 5px;
-      padding : 1px;
-      border-radius : 5px;
-      font-size : 0.8rem;
+      font-size : 1rem;
       border: #afafaf 1px solid;
       text-align: center;
       overflow: hidden;
