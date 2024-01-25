@@ -265,7 +265,7 @@ a {
 
     /* menu */
     .wrapper {
-      width: 100%;
+      width: 90%;
       margin: auto;
       padding : 20px 0px 20px 0px;
       overflow: hidden;
@@ -286,8 +286,8 @@ a {
     .menu {
       display: inline;
       align-items: center;
-      width: 100%;
-      justify-content: space-between;
+      width: 80%;
+      justify-content: space-evently;
     }
 
     .menu > ul {
@@ -295,7 +295,7 @@ a {
       list-style-type: none;
       margin: 0px;
       padding: 0px;
-      justify-content: space-between;
+      justify-content: space-evently;
     }
     .menu > ul > li {
       margin: 5px;
