@@ -295,7 +295,7 @@ a {
       list-style-type: none;
       margin: 0px;
       padding: 0px;
-      justify-content: space-evently;
+      justify-content: space-between;
     }
     .menu > ul > li {
       height: 100%;
