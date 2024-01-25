@@ -299,7 +299,6 @@ a {
     }
     .menu > ul > li {
       font-size : 1rem;
-      border: #afafaf 1px solid;
       text-align: center;
       overflow: hidden;
     }
