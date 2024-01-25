@@ -286,7 +286,7 @@ a {
     .menu {
       display: inline;
       align-items: center;
-      width: 80%;
+      width: 50%;
       justify-content: space-evently;
     }
 
@@ -298,8 +298,6 @@ a {
       justify-content: space-evently;
     }
     .menu > ul > li {
-      margin: 5px;
-      padding: 5px;
       height: 100%;
       border: #afafaf 1px solid;
       border-radius: 5px;
