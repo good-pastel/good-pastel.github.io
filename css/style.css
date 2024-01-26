@@ -270,16 +270,25 @@ a {
     font-weight: 800;
 
     /* menu */
+    .logo {
+      display: flex;
+      margin: auto;
+      align-items: center;
+    }
+    .logo > img {
+      width: 45px;
+      border-radius: 50%;
+    }
     .wrapper {
-      width: 90%;
+      width: 80%;
       margin: auto;
       padding: 20px 0px 20px 0px;
       overflow: hidden;
     }
     nav > .wrapper {
-      display: flex;
-      justify-content: space-between;
-      font-size: 1rem;
+      display: inline-flex;
+      width: 100%;
+      margin: auto;
       align-items: center;
     }
     nav {
@@ -290,26 +299,26 @@ a {
       z-index: 1;
     }
     .menu {
-      display: inline;
+      display: inline-flexbox;
+      margin: auto;
       align-items: center;
       width: 70%;
-      justify-content: space-between;
+      justify-content: space-around;
     }
 
     .menu > ul {
       display: flex;
       list-style-type: none;
-      margin: 0px;
-      padding: 0px;
+      margin: auto;
       justify-content: space-between;
     }
     .menu > ul > li {
-      font-size: 1rem;
+      font-size: 1.4rem;
       text-align: center;
       overflow: hidden;
     }
-    .menu > ul > li:hover {
-      background-color: #fc7c7c;
+    .menu > ul > li > a:hover {
+      color: #fc7c7c;
     }
     /* Portfolio */
     #portfolio {
