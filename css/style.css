@@ -252,44 +252,6 @@ a {
       padding: 20px 0px 20px 0px;
       overflow: hidden;
     }
-<<<<<<< HEAD
-=======
-    nav > .wrapper {
-      display: inline-flex;
-      width: 100%;
-      margin: auto;
-      align-items: center;
-    }
-    nav {
-      background-color: #b49283;
-      color: #fff;
-      position: sticky;
-      top: 0;
-      z-index: 1;
-    }
-    .menu {
-      display: inline-flexbox;
-      margin: auto;
-      align-items: center;
-      width: 70%;
-      justify-content: space-around;
-    }
-
-    .menu > ul {
-      display: flex;
-      list-style-type: none;
-      margin: auto;
-      justify-content: space-between;
-    }
-    .menu > ul > li {
-      font-size: 1rem;
-      text-align: center;
-      overflow: hidden;
-    }
-    .menu > ul > li > a:hover {
-      color: #fc7c7c;
-    }
->>>>>>> 63518ecd7a058af908102de9ee1163e24a191ae9
     /* Portfolio */
     #portfolio {
       background-color: #b49283;
@@ -327,7 +289,7 @@ a {
       line-height: 25px;
     }
     .wrapper2 {
-      width: 100%;
+      width: 80%;
     }
     .navigation {
       margin-top: -50px;
