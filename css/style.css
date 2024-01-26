@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Asap:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
@@ -13,45 +9,10 @@ body {
   font-family: "Calibri";
   font-weight: 800;
 }
-/* menu */
-.wrapper {
-  width: 1024px;
-  margin: auto;
-  padding: 20px 0px 20px 0px;
-}
-.logo {
-  display: flex;
-  align-items: center;
-}
-.logo > img {
-  width: 45px;
-  border-radius: 50%;
-}
-nav {
+.container-fluid {
   background-color: #b49283;
-  color: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
-nav > .wrapper {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.2rem;
-  align-items: center;
-}
-.menu {
-  width: 50%;
-}
-.menu > ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  justify-content: space-between;
-}
-.menu > ul > li > a {
-  text-decoration: none;
+.nav-item > a {
   color: #fff;
 }
 /* header */
@@ -103,6 +64,7 @@ header {
 .header-jumbotron > h5 {
   color: #5e5e5e;
   width: 80%;
+  font-weight: 800;
   text-align: justify;
   padding: 5px;
   font-size: 0.8rem;
@@ -125,6 +87,9 @@ a {
 }
 .button-xl {
   font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
   padding: 10px;
 }
 /* Portfolio */
@@ -142,6 +107,7 @@ a {
 #portfolio > .wrapper > h4 {
   text-align: center;
   font-size: 5rem;
+  font-weight: 800;
   margin: 0px;
   padding: 0px;
   margin-bottom: 10px;
@@ -149,6 +115,7 @@ a {
 #portfolio > .wrapper > h5 {
   text-align: center;
   font-size: 1rem;
+  font-weight: 400;
   margin: 0px;
   padding: 5px;
   margin-bottom: 20px;
@@ -158,6 +125,7 @@ a {
 }
 #portfolio > .wrapper > p {
   font-size: 0.8rem;
+  font-weight: 400;
   text-align: justify;
   align-items: center;
   padding: 0px;
@@ -213,10 +181,12 @@ a {
 #about {
   background-color: #b49283;
   color: #fff;
+  font-weight: 800;
   font-family: "Ubuntu", sans-serif;
 }
 #about > .wrapper > h4 {
   text-align: center;
+  font-weight: 800;
   font-size: 5rem;
   margin: 0px;
   padding: 0px;
@@ -230,6 +200,8 @@ a {
 }
 .foto {
   width: 20%;
+  display: flex;
+  margin-bottom: 10px;
 }
 .foto > img {
   width: 100%;
@@ -256,7 +228,10 @@ a {
 .copy > h5 {
   color: #fc7c7c;
   font-family: "Ubuntu", sans-serif;
+  margin: auto;
+  font-size: 1rem;
   text-align: center;
+  font-weight: 800;
 }
 
 /* 1024, 900, 768, 600, 450 responsive website */
@@ -270,55 +245,12 @@ a {
     font-weight: 800;
 
     /* menu */
-    .logo {
-      display: flex;
-      margin: auto;
-      align-items: center;
-    }
-    .logo > img {
-      width: 45px;
-      border-radius: 50%;
-    }
+
     .wrapper {
       width: 80%;
       margin: auto;
       padding: 20px 0px 20px 0px;
       overflow: hidden;
-    }
-    nav > .wrapper {
-      display: inline-flex;
-      width: 100%;
-      margin: auto;
-      align-items: center;
-    }
-    nav {
-      background-color: #b49283;
-      color: #fff;
-      position: sticky;
-      top: 0;
-      z-index: 1;
-    }
-    .menu {
-      display: inline-flexbox;
-      margin: auto;
-      align-items: center;
-      width: 70%;
-      justify-content: space-around;
-    }
-
-    .menu > ul {
-      display: flex;
-      list-style-type: none;
-      margin: auto;
-      justify-content: space-between;
-    }
-    .menu > ul > li {
-      font-size: 1.4rem;
-      text-align: center;
-      overflow: hidden;
-    }
-    .menu > ul > li > a:hover {
-      color: #fc7c7c;
     }
     /* Portfolio */
     #portfolio {
