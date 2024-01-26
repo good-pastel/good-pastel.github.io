@@ -290,9 +290,8 @@ a {
     }
     .wrapper2 {
       width: 80%;
-      display: grid;
     }
-    /* .navigation {
+    .navigation {
       margin-top: -50px;
     }
     .navigation a {
@@ -310,6 +309,6 @@ a {
     }
     #about > .wrapper > div {
       width: 100%;
-    } */
+    }
   }
 }
