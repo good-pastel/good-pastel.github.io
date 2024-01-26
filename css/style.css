@@ -186,6 +186,12 @@ a {
 #slide-2:target ~ .images {
   margin-left: -100%;
 }
+#slide-3:target ~ .images {
+  margin-left: -200%;
+}
+#slide-4:target ~ .images {
+  margin-left: -300%;
+}
 .navigation a {
   display: inline-block;
   height: 25px;
@@ -267,7 +273,7 @@ a {
     .wrapper {
       width: 90%;
       margin: auto;
-      padding : 20px 0px 20px 0px;
+      padding: 20px 0px 20px 0px;
       overflow: hidden;
     }
     nav > .wrapper {
@@ -298,7 +304,7 @@ a {
       justify-content: space-between;
     }
     .menu > ul > li {
-      font-size : 1rem;
+      font-size: 1rem;
       text-align: center;
       overflow: hidden;
     }
