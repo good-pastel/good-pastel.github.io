@@ -290,6 +290,7 @@ a {
     }
     .wrapper2 {
       width: 80%;
+      display: grid;
     }
     .navigation {
       margin-top: -50px;
