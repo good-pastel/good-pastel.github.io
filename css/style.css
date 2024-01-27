@@ -15,6 +15,10 @@ body {
 .nav-item > a {
   color: #fff;
 }
+.nav-item > a:hover {
+  color: #5e5e5e;
+}
+
 /* header */
 header {
   background: url("/img/background.jpg");
