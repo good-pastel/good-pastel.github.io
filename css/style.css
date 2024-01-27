@@ -8,9 +8,12 @@ body {
   font-size: 16px;
   font-family: "Calibri";
   font-weight: 800;
+  background-color: #fff6ed;
+  color: #c15151;
 }
+/* navigasi / menu */
 .container-fluid {
-  background-color: #b49283;
+  background-color: #c15151;
 }
 .nav-item > a {
   color: #fff;
@@ -18,7 +21,6 @@ body {
 .nav-item > a:hover {
   color: #5e5e5e;
 }
-
 /* header */
 header {
   background: url("/img/background.jpg");
@@ -31,7 +33,7 @@ header {
   position: relative;
 }
 .header-opacity {
-  background-color: #fff;
+  background-color: #fff6ed;
   width: 100%;
   height: 100%;
   opacity: 0.4;
@@ -60,7 +62,7 @@ header {
 }
 .header-jumbotron > h5 > a {
   text-decoration: none;
-  color: #fc7c7c;
+  color: #c15151;
 }
 .header-jumbotron > h5 > a:hover {
   color: #5e5e5e;
@@ -77,10 +79,10 @@ header {
 a {
   text-decoration: none;
   text-shadow: none;
-  color: #fff;
+  color: #fff6ed;
 }
 .button {
-  background-color: #fc7c7c;
+  background-color: #c15151;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   font-family: "Calibri";
@@ -92,14 +94,14 @@ a {
 .button-xl {
   font-size: 1rem;
   text-decoration: none;
-  color: #fff;
+  color: #fff6ed;
   font-weight: 800;
   padding: 10px;
 }
 /* Portfolio */
 #portfolio {
-  background-color: #b49283;
-  color: #fff;
+  background-color: #fff6ed;
+  color: #c15151;
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 10px;
 }
@@ -117,6 +119,8 @@ a {
   margin-bottom: 10px;
 }
 #portfolio > .wrapper > h5 {
+  background-color: #fff6ed;
+  color: #5e5e5e;
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
@@ -124,16 +128,23 @@ a {
   padding: 5px;
   margin-bottom: 20px;
 }
+#portfolio > .wrapper > h5 > i {
+  background-color: #fff6ed;
+  color: #5e5e5e;
+}
 #portfolio > .wrapper > h4 > span {
-  color: #fddad5;
+  color: #7a4242;
 }
 #portfolio > .wrapper > p {
+  background-color: #fff6ed;
+  color: #5e5e5e;
   font-size: 0.8rem;
   font-weight: 400;
   text-align: justify;
   align-items: center;
   padding: 0px;
 }
+/* portfolio - images */
 .images {
   display: flex;
   width: 100%;
@@ -164,17 +175,18 @@ a {
 #slide-4:target ~ .images {
   margin-left: -300%;
 }
+/* navigation images */
 .navigation a {
   display: inline-block;
   height: 25px;
   width: 25px;
-  background-color: #afafaf;
+  background-color: #c15151;
   font-size: 0px;
   border-radius: 50%;
   margin: 3px;
 }
 .navigation a:hover {
-  background-color: #fc7c7c;
+  background-color: #fff6ed;
 }
 .navigation {
   text-align: center;
@@ -183,8 +195,8 @@ a {
 }
 /* About Me */
 #about {
-  background-color: #b49283;
-  color: #fff;
+  background-color: #fff6ed;
+  color: #5e5e5e;
   font-weight: 800;
   font-family: "Ubuntu", sans-serif;
 }
@@ -214,7 +226,7 @@ a {
   width: 80%;
   padding: 20px;
   margin: 10px;
-  background-color: #fff;
+  background-color: #fff6ed;
   color: #5e5e5e;
   border-radius: 10px;
 }
@@ -227,10 +239,10 @@ a {
   justify-content: space-between;
 }
 .desc > .social > a {
-  color: #fc7c7c;
+  color: #c15151;
 }
 .copy > h5 {
-  color: #fc7c7c;
+  color: #c15151;
   font-family: "Ubuntu", sans-serif;
   margin: auto;
   font-size: 1rem;
@@ -258,8 +270,6 @@ a {
     }
     /* Portfolio */
     #portfolio {
-      background-color: #b49283;
-      color: #fff;
       font-family: "Ubuntu", sans-serif;
       margin-bottom: 10px;
     }
@@ -282,9 +292,6 @@ a {
       padding: 5px;
       margin-bottom: 20px;
     }
-    #portfolio > .wrapper > h4 > span {
-      color: #fddad5;
-    }
     #portfolio > .wrapper > p {
       font-size: 0.8rem;
       text-align: justify;
@@ -302,6 +309,7 @@ a {
       height: 20px;
       width: 20px;
     }
+    /* about me */
     .desc > .social {
       display: inline;
     }
