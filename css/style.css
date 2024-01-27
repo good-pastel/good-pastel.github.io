@@ -303,7 +303,7 @@ a {
       width: 20px;
     }
     .desc > .social {
-      display: inline-flex;
+      display: inline;
     }
     .foto {
       width: 30%;
