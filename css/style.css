@@ -17,6 +17,8 @@ body {
 }
 .nav-item > a {
   color: #fff;
+  font-family: "Calibri";
+  font-weight: 800;
 }
 .nav-item > a:hover {
   color: #5e5e5e;
