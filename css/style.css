@@ -60,7 +60,7 @@ header {
   letter-spacing: 5px;
   text-shadow: 0 0 40px #fc7c7c;
 }
-h5 {
+#home h5 {
   text-indent:50px;
 }
 .header-jumbotron > h5 > a {
