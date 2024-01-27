@@ -17,8 +17,6 @@ body {
 }
 .nav-item > a {
   color: #fff;
-  font-family: inherit;
-  font-weight: inherit;
 }
 .nav-item > a:hover {
   color: #5e5e5e;
