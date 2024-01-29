@@ -17,6 +17,8 @@ body {
 }
 .nav-item > a {
   color: #fff;
+  font-family: "Calibri" !important;
+  font-weight: 800 !important;
 }
 .nav-item > a:hover {
   color: #5e5e5e;
@@ -59,6 +61,9 @@ header {
   padding: 0px;
   letter-spacing: 5px;
   text-shadow: 0 0 40px #fc7c7c;
+}
+#home h5 {
+  text-indent:50px;
 }
 .header-jumbotron > h5 > a {
   text-decoration: none;
