@@ -63,7 +63,7 @@ header {
   text-shadow: 0 0 40px #fc7c7c;
 }
 #home h5 {
-  text-indent:50px;
+  text-indent: 50px;
 }
 .header-jumbotron > h5 > a {
   text-decoration: none;
@@ -181,6 +181,9 @@ a {
 }
 #slide-4:target ~ .images {
   margin-left: -300%;
+}
+#slide-5:target ~ .images {
+  margin-left: -400%;
 }
 /* navigation images */
 .navigation a {
