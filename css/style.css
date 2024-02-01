@@ -164,47 +164,7 @@ a {
 .wrapper2 {
   width: 800px;
   margin: auto;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.slides {
-  margin-bottom: 50px;
-}
-#slide-1:target ~ .images {
-  margin-left: 0px;
-}
-#slide-2:target ~ .images {
-  margin-left: -100%;
-}
-#slide-3:target ~ .images {
-  margin-left: -200%;
-}
-#slide-4:target ~ .images {
-  margin-left: -300%;
-}
-#slide-5:target ~ .images {
-  margin-left: -400%;
-}
-#slide-6:target ~ .images {
-  margin-left: -500%;
-}
-/* navigation images */
-.navigation a {
-  display: inline-block;
-  height: 25px;
-  width: 25px;
-  background-color: #c15151;
-  font-size: 0px;
-  border-radius: 50%;
-  margin: 3px;
-}
-.navigation a:hover {
-  background-color: #fff6ed;
-}
-.navigation {
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  overflow: auto;
 }
 /* About Me */
 #about {
