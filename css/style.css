@@ -276,13 +276,19 @@ a {
     }
     .wrapper2 {
       width: 80%;
+      background-color: salmon;
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box;
     }
-    .navigation {
-      margin-top: -50px;
+    .wrapper2 .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      grid-gap: 10px;
     }
-    .navigation a {
-      height: 20px;
-      width: 20px;
+    .images img {
+      display: block;
+      width: 100%;
     }
     /* about me */
     .desc > .social {
