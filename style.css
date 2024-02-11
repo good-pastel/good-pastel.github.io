@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "halimunregular";
+  src: url("fonts/halimun-webfont.woff2") format("woff2"),
+    url("fonts/halimun-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  color: rgb(41, 41, 41);
+}
+.navbar-brand {
+  font-family: "halimunregular", serif !important;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #9ddce9;
+}
+.jumbotron h1 {
+  font-family: "halimunregular", serif;
+  font-size: 2.5rem;
+  text-shadow: 2px 4px 2px white;
+}
+.jumbotron p {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+#projects {
+  background-color: #9ddce9;
+}
+#contact {
+  background-color: #d9ebef;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}
+section {
+  padding-top: 5rem;
+}
