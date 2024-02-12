@@ -25,13 +25,8 @@
 
 This is my personal portfolio.
 
-## Languages
 
-<img src="https://i.ibb.co/ZWby3XF/Screenshot-2024-01-15-102600.png">
-<br>
-<br>
-<br>
-&copy Good Pastel. 2024
+&copy; Good Pastel. 2024
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
