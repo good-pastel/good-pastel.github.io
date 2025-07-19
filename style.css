@@ -5,9 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
-* {
+body {
   color: rgb(41, 41, 41);
 }
+body.dark-mode {
+  color: #f0f4fb;
+}
+
 .navbar-brand {
   font-family: "halimunregular", serif !important;
 }
