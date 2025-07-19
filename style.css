@@ -9,7 +9,7 @@ body {
   color: rgb(41, 41, 41);
 }
 body.dark-mode {
-  color: #f0f4fb;
+  color: #f0f4fb !important;
 }
 
 .navbar-brand {
