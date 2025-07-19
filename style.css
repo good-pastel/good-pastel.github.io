@@ -5,9 +5,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   color: rgb(41, 41, 41);
 }
+
 body.dark-mode {
   color: #f0f4fb !important;
 }
@@ -15,52 +17,63 @@ body.dark-mode {
 .navbar-brand {
   font-family: "halimunregular", serif !important;
 }
+
 .jumbotron {
   padding-top: 6rem;
   background-color: #9ddce9;
 }
+
 .jumbotron h1 {
   font-family: "halimunregular", serif;
   font-size: 2.5rem;
-  text-shadow: 2px 4px 2px white;
+  text-shadow: 2px 4px 2px black; /* Ubah jadi hitam */
 }
+
+body.dark-mode .jumbotron h1 {
+  text-shadow: 2px 4px 2px white; /* Khusus dark mode jadi putih */
+}
+
 .jumbotron p {
   font-weight: 800;
   text-transform: uppercase;
 }
+
 #projects {
   background-color: #9ddce9;
 }
+
 #contact {
   background-color: #d9ebef;
 }
+
 footer a {
   text-decoration: none;
   color: rgb(41, 41, 41);
 }
+
 section {
   padding-top: 5rem;
 }
 
- body {
-    transition: background-color 0.4s ease, color 0.4s ease;
-  }
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
 
 body.dark-mode {
   background-color: #2f3446;
   color: #f0f4fb;
 }
 
- .dark-mode .navbar,
+.dark-mode .navbar,
 .dark-mode footer {
   background-color: #3c445c !important;
 }
 
-  .dark-mode .nav-link {
+.dark-mode .nav-link {
   color: #f0f4fb !important;
 }
 
-  .dark-mode .card {
+.dark-mode .card {
   background-color: #4b5167;
   color: #f0f4fb;
   border: none;
@@ -72,16 +85,16 @@ body.dark-mode {
   border-color: #ced4da;
 }
 
-  .dark-mode .form-label {
+.dark-mode .form-label {
   color: #f0f4fb;
 }
 
-  .dark-mode .btn-primary {
+.dark-mode .btn-primary {
   background-color: #6c7a92;
   border: none;
 }
 
-  .dark-mode .theme-toggle {
+.dark-mode .theme-toggle {
   background: none;
   border: none;
   color: #f0f4fb;
@@ -90,9 +103,9 @@ body.dark-mode {
   cursor: pointer;
 }
 
-  .theme-toggle:hover {
-    opacity: 0.85;
-  }
+.theme-toggle:hover {
+  opacity: 0.85;
+}
 
 .dark-mode #about,
 .dark-mode #projects,
@@ -117,6 +130,3 @@ body.dark-mode {
 body, .card, .navbar, section, footer {
   transition: background-color 0.4s ease, color 0.4s ease;
 }
-
-
-
