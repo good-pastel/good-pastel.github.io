@@ -108,5 +108,11 @@ section {
 .dark-mode .wave-path {
   fill: #2a2d47 !important;
 }
+#about, #projects, #contact {
+  background-color: #d9ebef;
+}
+.dark-mode .wave-path {
+  fill: #2a2d47 !important;
+}
 
 
