@@ -89,3 +89,19 @@ section {
   .theme-toggle:hover {
     opacity: 0.85;
   }
+
+.dark-mode #about,
+.dark-mode #projects,
+.dark-mode #contact {
+  background-color: #252944; /* lembut & serasi */
+}
+
+.dark-mode footer a,
+.dark-mode footer p {
+  color: #e3f2fd !important;
+}
+
+.dark-mode svg path {
+  fill: #2a2d47 !important;
+}
+
