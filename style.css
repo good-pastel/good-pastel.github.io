@@ -37,3 +37,46 @@ footer a {
 section {
   padding-top: 5rem;
 }
+
+ body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  .dark-mode .navbar,
+  .dark-mode footer {
+    background-color: #1f1f1f !important;
+  }
+
+  .dark-mode .card {
+    background-color: #2c2c2c;
+    color: #fff;
+  }
+
+  .dark-mode .form-control,
+  .dark-mode .form-label {
+    background-color: #2c2c2c;
+    color: #fff;
+  }
+
+  .dark-mode .btn-primary {
+    background-color: #3f3f3f;
+    border-color: #6c757d;
+  }
+
+  .theme-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .dark-mode .theme-toggle {
+    color: #f1f1f1;
+  }
