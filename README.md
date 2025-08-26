@@ -23,7 +23,7 @@
 
 ## Description
 
-This is my personal portfolio.
+This is my personal website.
 
 
 &copy; Good Pastel. 2024
