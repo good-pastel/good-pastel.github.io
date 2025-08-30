@@ -250,32 +250,37 @@ Eventually, I started building simple websites just for fun — and honestly, it
 
     <!-- Script Form to Google Sheets -->
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbx3XwG2PPY99qSXMwoVcLVUS5PDC2MphDsn8nZ6e3juTanekRcQHc1lL9Lb7PfMIaIa4Q/exec'
-        const form = document.forms['devi-yola-contact-form']
-        const btnKirim = document.querySelector('.btn-kirim');
-        const btnLoading = document.querySelector('.btn-loading');
-        const myAlert = document.querySelector('.my-alert');
+  const scriptURL = "https://script.google.com/macros/s/AKfycbz9gmvnIM6CswLy1GILc_ISIIY5bIFCr5nE30tm89_UpfPTzWBR6iJfupfUILlTglNlpg/exec";
+  const form = document.forms['devi-yola-contact-form'];
+  const btnKirim = document.querySelector('.btn-kirim');
+  const btnLoading = document.querySelector('.btn-loading');
 
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            // ketika tombol Send diklik
-            // tampilkan tombol loading, hilangkan tombol kirim
-            btnLoading.classList.toggle('d-none');
-            btnKirim.classList.toggle('d-none');
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    // tampilkan tombol kirim, hilangkan tombol loading
-                    btnLoading.classList.toggle('d-none');
-                    btnKirim.classList.toggle('d-none');
-                    // tampilkan alert
-                    myAlert.classList.toggle('d-none');
-                    // reset form
-                    form.reset();
-                    console.log('Success!', response)
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
-    </script>
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    // tampilkan loading
+    btnLoading.classList.remove('d-none');
+    btnKirim.classList.add('d-none');
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        // sembunyikan loading, tampilkan tombol kirim lagi
+        btnLoading.classList.add('d-none');
+        btnKirim.classList.remove('d-none');
+        
+        alert("Pesan berhasil terkirim! Terima kasih sudah menghubungi Good Pastel 💌");
+        form.reset();
+      })
+      .catch(error => {
+        console.error('Error!', error.message);
+        alert("Terjadi kesalahan, silakan coba lagi.");
+        
+        btnLoading.classList.add('d-none');
+        btnKirim.classList.remove('d-none');
+      });
+  });
+</script>
+
     <!-- Script Form to Google Sheets -->
 </body>
 
