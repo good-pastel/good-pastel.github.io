@@ -7,13 +7,20 @@
 }
 * {
   color: rgb(41, 41, 41);
+  font-family: "Alan Sans", sans-serif;
+
 }
+
+.navbar {
+  background-color : #E8CFCF !important;
+}
+
 .navbar-brand {
   font-family: "halimunregular", serif !important;
 }
 .jumbotron {
   padding-top: 6rem;
-  background-color: #9ddce9;
+  background-color: #F3E1D5;
 }
 .jumbotron h1 {
   font-family: "halimunregular", serif;
@@ -25,11 +32,21 @@
   text-transform: uppercase;
 }
 #projects {
-  background-color: #9ddce9;
+  background-color: #F3E1D5;
 }
+
+.card {
+  background-color: #CB9191;
+}
+
 #contact {
-  background-color: #d9ebef;
+  background-color: #E8CFCF;
 }
+
+.footer {
+  background-color : #E8CFCF !important;
+}
+
 footer a {
   text-decoration: none;
   color: rgb(41, 41, 41);
@@ -46,6 +63,12 @@ section {
     background-color: #121212;
     color: #e0e0e0;
   }
+
+.btn-primary {
+  background-color: #F3E1D5; !important;
+  color : #3333; !important;
+  border-color : #fff; !important
+}
 
   .dark-mode .navbar,
   .dark-mode footer {
