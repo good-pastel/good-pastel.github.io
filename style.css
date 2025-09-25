@@ -71,7 +71,7 @@ section {
 }
 
 .btn-primary:hover {
-  background-color: #b80202ff;
+  background-color: #b80202ff; !important
 }
 
   .dark-mode .navbar,
