@@ -70,6 +70,10 @@ section {
   border-color : #fff; !important
 }
 
+.btn-primary:hover {
+  background-color: #b80202ff;
+}
+
   .dark-mode .navbar,
   .dark-mode footer {
     background-color: #1f1f1f !important;
