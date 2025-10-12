@@ -108,3 +108,28 @@ section {
   .dark-mode .theme-toggle {
     color: #f1f1f1;
   }
+
+  /* Cegah scroll horizontal */
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+/* Pastikan SVG gelombang nggak bikin melebar */
+section > svg {
+  display: block;   /* hilangkan whitespace inline */
+  width: 100%;      /* skala mengikuti lebar layar */
+  height: auto;
+  overflow: hidden; /* potong sisa path yang keluar */
+}
+
+/* Safeguard lain */
+* { box-sizing: border-box; }
+img, video { max-width: 100%; height: auto; display: block; }
+
+/* Kalau di CSS kamu ada width: 100vw; ganti jadi 100% */
+
+
