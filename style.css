@@ -1,105 +1,480 @@
+/* ==============================
+GOOD PASTEL
+Documentation • Analytics
+Creative Portfolio Hub
+============================== */
+
 @font-face {
   font-family: "halimunregular";
-  src: url("fonts/halimun-webfont.woff2") format("woff2"),
-    url("fonts/halimun-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-* {
-  color: rgb(41, 41, 41);
-  font-family: "Alan Sans", sans-serif;
-  box-sizing : border-box;
 
+  src:
+    url("fonts/halimun-webfont.woff2") format("woff2"),
+    url("fonts/halimun-webfont.woff") format("woff");
 }
+
+:root {
+  --primary: #e8cfcf;
+
+  --secondary: #f3e1d5;
+
+  --accent: #cb9191;
+
+  --white: #ffffff;
+
+  --text: #333333;
+
+  --soft: #777777;
+
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Alan Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+
+  background: white;
+  color: var(--text);
+}
+
+/*======================
+NAVBAR
+======================*/
 
 .navbar {
-  background-color : #E8CFCF !important;
+  background: rgba(232, 207, 207, 0.95) !important;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
 }
 
 .navbar-brand {
-  font-family: "halimunregular", serif !important;
+  font-family: "halimunregular";
+
+  font-size: 32px;
 }
+
+.nav-link {
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+/*======================
+HERO
+======================*/
+
 .jumbotron {
-  padding-top: 6rem;
-  background-color: #F3E1D5;
+  padding-top: 140px;
+
+  background: var(--secondary);
 }
-.jumbotron h1 {
-  font-family: "halimunregular", serif;
-  font-size: 2.5rem;
-  text-shadow: 2px 4px 2px white;
+
+.hero-photo {
+  width: 190px;
+
+  box-shadow: var(--shadow);
 }
-.jumbotron p {
-  font-weight: 800;
+
+.display-4 {
+  font-family: "halimunregular";
+
+  font-size: 3rem;
+
+  margin-top: 20px;
+}
+
+.lead {
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
   text-transform: uppercase;
-}
-#projects {
-  background-color: #F3E1D5;
+
+  color: var(--accent);
 }
 
-.card {
-  background-color: #CB9191;
+.hero-desc {
+  max-width: 750px;
+
+  margin: auto;
+
+  line-height: 2;
+
+  margin-top: 20px;
+
+  color: var(--soft);
 }
 
-#contact {
-  background-color: #E8CFCF;
+.hero-buttons {
+  margin-top: 40px;
 }
 
-.footer {
-  background-color : #E8CFCF !important;
+.hero-buttons a {
+  margin: 10px;
 }
 
-footer a {
-  text-decoration: none;
-  color: rgb(41, 41, 41);
-}
+/*======================
+SECTION
+======================*/
+
 section {
-  padding-top: 5rem;
+  padding: 90px 0;
 }
 
- body {
-    transition: background-color 0.3s, color 0.3s;
-  }
+section h2 {
+  font-weight: 700;
 
-.btn-primary {
-  background-color: #F3E1D5; !important;
-  color : #3333; !important;
-  border-color : #fff; !important
+  margin-bottom: 10px;
 }
 
-.btn-primary:hover {
-  background-color: #b80202; !important
+.section-subtitle {
+  color: var(--soft);
+
+  max-width: 650px;
+
+  margin: auto;
 }
 
-  .theme-toggle {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.3rem;
-    margin-left: 10px;
-    cursor: pointer;
-  }
+/*======================
+ABOUT
+======================*/
 
-  /* Cegah scroll horizontal */
-html, body {
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
-  overflow-x: hidden;
+#about {
+  background: white;
+}
+
+.about-card {
+  padding: 35px;
+
+  background: white;
+
+  border-radius: 25px;
+
+  box-shadow: var(--shadow);
+}
+
+.mini-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 20px;
+
+  font-weight: 600;
+}
+
+.mini-item i {
+  font-size: 22px;
+
+  color: var(--accent);
+}
+
+/*======================
+SERVICES
+======================*/
+
+#services {
+  background: var(--secondary);
+}
+
+.service-card {
+  padding: 35px;
+
+  border-radius: 25px;
+
+  background: white;
+
+  box-shadow: var(--shadow);
+
+  text-align: center;
+
+  transition: 0.4s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card i {
+  font-size: 35px;
+
+  color: var(--accent);
+}
+
+.service-card h5 {
+  margin-top: 20px;
+
+  font-weight: 700;
+}
+
+.service-card p {
+  color: var(--soft);
+}
+
+/*======================
+PORTFOLIO
+======================*/
+
+.portfolio-card {
+  background: white;
+
+  border-radius: 25px;
+
+  overflow: hidden;
+
+  box-shadow: var(--shadow);
+
+  transition: 0.4s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-10px);
+}
+
+.portfolio-thumb {
+  width: 100%;
+
+  height: 220px;
+
+  object-fit: cover;
+}
+
+.portfolio-body {
+  padding: 30px;
+
   text-align: center;
 }
 
-/* Pastikan SVG gelombang nggak bikin melebar */
-section > svg {
-  display: block;   /* hilangkan whitespace inline */
-  width: 100%;      /* skala mengikuti lebar layar */
-  height: auto;
-  overflow: hidden; /* potong sisa path yang keluar */
+.portfolio-icon {
+  font-size: 32px;
+
+  margin-bottom: 20px;
+
+  color: var(--accent);
 }
 
-/* Safeguard lain */
-* { box-sizing: border-box; }
-img, video { max-width: 100%; height: auto; display: block; }
+.portfolio-body p {
+  color: var(--soft);
+}
 
-/* Kalau di CSS kamu ada width: 100vw; ganti jadi 100% */
+/*======================
+BUTTONS
+======================*/
 
+.btn-primary {
+  background: var(--accent) !important;
 
+  border: none !important;
+
+  padding: 12px 28px;
+
+  border-radius: 30px;
+}
+
+.btn-primary:hover {
+  background: #b67878 !important;
+}
+
+.btn-outline-dark {
+  border-radius: 30px;
+
+  padding: 12px 28px;
+}
+
+/*======================
+CONTACT
+======================*/
+
+#contact {
+  background: white;
+}
+
+.form-control {
+  padding: 15px;
+
+  border-radius: 15px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+
+  border-color: var(--accent);
+}
+
+/*======================
+FOOTER
+======================*/
+
+.footer {
+  padding: 40px;
+
+  background: var(--primary);
+
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+
+  font-size: 24px;
+
+  text-decoration: none;
+}
+
+.social-links i {
+  color: var(--text);
+}
+
+/*======================
+SVG
+======================*/
+
+svg {
+  display: block;
+
+  width: 100%;
+}
+
+/*======================
+MOBILE
+======================*/
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+
+  .display-4 {
+    font-size: 2.3rem;
+  }
+
+  .hero-desc {
+    padding: 0 20px;
+  }
+
+  .service-card {
+    margin-bottom: 20px;
+  }
+}
+/* ====================================
+
+PORTFOLIO PREMIUM V2.5
+
+==================================== */
+
+.premium-card {
+  padding: 40px;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  border-radius: 30px;
+
+  box-shadow: var(--shadow);
+
+  backdrop-filter: blur(10px);
+
+  height: 100%;
+
+  transition: 0.4s;
+
+  text-align: left;
+}
+
+.premium-card:hover {
+  transform: translateY(-10px);
+}
+
+.premium-icon {
+  font-size: 42px;
+
+  margin-bottom: 25px;
+}
+
+.premium-card h4 {
+  font-weight: 700;
+
+  margin-bottom: 15px;
+}
+
+.premium-card p {
+  color: var(--soft);
+
+  line-height: 1.8;
+
+  min-height: 120px;
+}
+
+.premium-card a {
+  text-decoration: none;
+
+  font-weight: 700;
+
+  color: var(--accent);
+}
+
+.premium-card a:hover {
+  opacity: 0.7;
+}
+.about-card {
+  padding: 35px;
+
+  background: white;
+
+  border-radius: 30px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.mini-item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.mini-item:last-child {
+  border: none;
+}
+
+.mini-item i {
+  font-size: 24px;
+
+  color: #cb9191;
+}
+
+.mini-item span {
+  font-weight: 600;
+
+  font-size: 15px;
+}
