@@ -1,7 +1,3 @@
-```markdown
-
-```
-
 # 🌸 Good Pastel
 
 _A small pastel corner where ideas become projects._
