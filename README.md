@@ -10,13 +10,13 @@ Instead of being a single portfolio, this website serves as the central hub conn
 
 ### ✨ Explore
 
-📝 Technical Writing Portfolio
+📝 [Technical Writing Portfolio](https://good-pastel.github.io/TW-portfolio/)
 
-📊 Data Analyst Portfolio
+📊 [Data Analyst Portfolio](https://good-pastel.github.io/data-analyst-portfolio/)
 
-💼 Freelance Portfolio
+💼 [Freelance Portfolio](https://good-pastel.github.io/freelance-portfolio/)
 
-💡 Side Projects
+💡 [Side Projects](https://github.com/good-pastel?tab=repositories)
 
 ---
 
@@ -40,10 +40,10 @@ This repository hosts the source code for my GitHub Pages homepage, which acts a
 
 This homepage connects visitors to different collections of my work, including:
 
-- [Technical Writing Portfolio](https://good-pastel.github.io/TW-portfolio/)
-- [Data Analyst Portfolio](https://good-pastel.github.io/data-analyst-portfolio/)
-- [Freelance Portfolio](https://good-pastel.github.io/freelance-portfolio/)
-- [Personal Side Projects](https://github.com/good-pastel?tab=repositories)
+- Technical Writing Portfolio
+- Data Analyst Portfolio
+- Freelance Portfolio
+- Personal Side Projects
 
 Each repository reflects a different part of my learning journey and professional growth.
 
