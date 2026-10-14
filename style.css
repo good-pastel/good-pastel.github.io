@@ -478,3 +478,117 @@ PORTFOLIO PREMIUM V2.5
 
   font-size: 15px;
 }
+
+
+/* ====================================
+   MUSIC DIARY PREVIEW — pastel palette
+   ==================================== */
+:root {
+  --music-blue: #b9eaf7;
+  --music-lavender: #d9ddf9;
+  --music-pink: #f6cedc;
+  --music-peach: #ffe0c8;
+  --music-coral: #f2a7ad;
+  --music-mint: #c9f3e8;
+  --music-ink: #33496b;
+}
+
+.music-preview-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, #f5fbff 0%, #fff8fb 52%, #f7fffc 100%);
+}
+.music-eyebrow {
+  color: #7b83b6;
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.music-preview-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.music-preview-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+  overflow: hidden;
+  border: 1px solid rgba(143, 163, 207, .2);
+  border-radius: 30px;
+  background: rgba(255,255,255,.82);
+  box-shadow: 0 20px 60px rgba(113, 132, 177, .12);
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+.music-preview-link:hover .music-preview-card,
+.music-preview-link:focus-visible .music-preview-card {
+  transform: translateY(-7px);
+  box-shadow: 0 28px 70px rgba(113, 132, 177, .2);
+}
+.music-preview-art {
+  min-height: 320px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: linear-gradient(130deg, var(--music-blue), var(--music-lavender) 35%, var(--music-pink) 68%, var(--music-peach));
+}
+.music-preview-art::before,
+.music-preview-art::after {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  filter: blur(2px);
+  background: rgba(255,255,255,.38);
+}
+.music-preview-art::before { top: -115px; left: -70px; }
+.music-preview-art::after { bottom: -145px; right: -55px; background: rgba(201,243,232,.7); }
+.music-headphone {
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 172px;
+  height: 172px;
+  border-radius: 48px;
+  color: #777bc0;
+  background: rgba(255,255,255,.45);
+  border: 1px solid rgba(255,255,255,.7);
+  box-shadow: 0 20px 50px rgba(102, 105, 174, .2), inset 0 1px 10px rgba(255,255,255,.65);
+  transform: rotate(-8deg);
+  transition: transform .4s ease;
+}
+.music-headphone i { font-size: 6rem; }
+.music-preview-link:hover .music-headphone { transform: rotate(0) scale(1.06); }
+.music-orbit { position: absolute; border: 1px solid rgba(255,255,255,.6); border-radius: 50%; }
+.orbit-one { width: 275px; height: 275px; }
+.orbit-two { width: 340px; height: 340px; border-style: dashed; }
+.music-sparkle, .music-note { position: absolute; z-index: 2; color: white; text-shadow: 0 2px 10px rgba(99,93,160,.18); }
+.sparkle-one { top: 17%; left: 18%; font-size: 2rem; }
+.sparkle-two { top: 25%; right: 18%; font-size: 1.5rem; }
+.note-one { bottom: 20%; left: 21%; font-size: 2.5rem; }
+.note-two { bottom: 25%; right: 22%; font-size: 1.8rem; }
+.music-preview-copy { align-self: center; padding: clamp(28px, 5vw, 60px); }
+.music-preview-copy h3 { color: var(--music-ink); font-size: clamp(1.8rem, 3vw, 2.7rem); line-height: 1.15; margin-bottom: 18px; }
+.music-preview-copy h3 span { color: #c58ca9; }
+.music-preview-copy > p:not(.music-eyebrow) { color: #69768c; line-height: 1.85; max-width: 480px; }
+.music-tags { display: flex; flex-wrap: wrap; gap: 9px; margin: 23px 0 28px; }
+.music-tags span { padding: 7px 14px; border-radius: 999px; font-size: .82rem; color: #4c5f80; background: var(--music-blue); }
+.music-tags span:nth-child(2) { background: var(--music-lavender); }
+.music-tags span:nth-child(3) { background: var(--music-mint); }
+.music-explore { display: inline-flex; align-items: center; gap: 10px; color: #6f78b2; font-weight: 700; border-bottom: 1px solid rgba(111,120,178,.35); padding-bottom: 5px; }
+.music-preview-arrow { position: absolute; top: 22px; right: 22px; display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; color: #6d78ae; background: rgba(255,255,255,.72); }
+@media (max-width: 767.98px) {
+  .music-preview-card { grid-template-columns: 1fr; border-radius: 24px; }
+  .music-preview-art { min-height: 245px; }
+  .music-headphone { width: 135px; height: 135px; border-radius: 38px; }
+  .music-headphone i { font-size: 4.8rem; }
+  .music-preview-copy { padding: 30px 24px 34px; }
+  .music-preview-arrow { top: 15px; right: 15px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .music-preview-card, .music-headphone { transition: none; }
+}
